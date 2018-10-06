@@ -8,7 +8,7 @@ int main ()
 	int nilai;
 	cout<<"masukan nilai: "; cin>>nilai;
 	cout<<endl;
-	if (nilai>65)
+	if (nilai>50)
  {
  	cout<<"SELAMAT, ANDA LULUS..." ;
  }
