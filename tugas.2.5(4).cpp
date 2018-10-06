@@ -17,7 +17,7 @@ int main ()
 	cout<<"Tinggi Badan : "; cin>>tb;
 	
 	//menghitung Berat Badan Ideal;
-	bb = tb - 100 - (0,1 * (tb-100) ); cout<<endl;
+	bb = tb - 100 - ((tb-100) * 0.1 ); cout<<endl;
 	cout<<"Berat Badan Ideal : "<<bb; cout<<endl;
 	
 getch ();
